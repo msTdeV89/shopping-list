@@ -1,0 +1,55 @@
+.options {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10px 20px;
+  background-color: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.options__clear {
+  width: 40% !important;
+  border-radius: 5px !important;
+  background: linear-gradient(145deg, #2558e6, #2c69ff) !important;
+  box-shadow: 4px 4px 7px #2353d9, -4px -4px 7px #2f71ff !important;
+  text-transform: capitalize !important;
+}
+
+.options .MuiFormControlLabel-root {
+  width: 45% !important;
+}
+.options .MuiFormControlLabel-label {
+  color: white !important;
+}
+
+.options__popup {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.options__popupGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.options__popup .MuiPaper-root {
+  position: fixed !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  display: flex !important;
+  flex-wrap: wrap;
+  flex-direction: column !important;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  padding: 10px !important;
+  background-color: #2962ff !important;
+  color: white !important;
+}
+
+.options__popup .MuiPaper-root .options__popupBtn {
+  background: linear-gradient(145deg, #2558e6, #2c69ff) !important;
+  box-shadow: 4px 4px 7px #2353d9, -4px -4px 7px #2f71ff !important;
+  text-transform: capitalize !important;
+}

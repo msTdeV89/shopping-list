@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  padding-top: 10px;
+  background-color: #2962ff;
+}
+
+.header__form {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__input {
+  flex: 0.9;
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  color: white;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px !important;
+  background: linear-gradient(145deg, #2558e6, #2c69ff) !important;
+  box-shadow: 4px 4px 7px #2353d9, -4px -4px 7px #2f71ff !important;
+}
+.header__input::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+
+.header__button {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: 10px !important;
+  border-radius: 5px !important;
+  background: linear-gradient(145deg, #2558e6, #2c69ff) !important;
+  box-shadow: 4px 4px 7px #2353d9, -4px -4px 7px #2f71ff !important;
+}
+
+.header__button span {
+  color: white !important;
+  font-size: 20px;
+}
